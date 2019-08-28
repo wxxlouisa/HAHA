@@ -5,7 +5,7 @@ import os.path as osp
 from collections import OrderedDict
 import mmcv
 
-fnList = glob.glob("/root/whome/genreClass/arxiv/GTZAN/wav/*.wav")
+fnList = glob.glob("/home/lab_speech/music_classification/fma_medium/*/*.mp3")
 featDict = OrderedDict()
 pbar = mmcv.ProgressBar(len(fnList))
 for fn in fnList:

@@ -84,7 +84,7 @@ algoDict['Inharmonicity'] = _inharmonicity
 
 
 
-svmPath = "/data00/home/duxingjian.real/V0/svm_models/*.history"
+#svmPath = "/data00/home/duxingjian.real/V0/svm_models/*.history"
 #highLevelExtractor = es.MusicExtractorSVM(svms=glob.glob(svmPath))
 lowLevelExtractor = es.MusicExtractor()
 
